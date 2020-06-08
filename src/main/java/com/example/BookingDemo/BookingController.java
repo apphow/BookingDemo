@@ -53,7 +53,7 @@ public class BookingController {
                                             // this is how the binding works between the
                                             // client and the server
         bookings.add(hotelBooking);
-        // can see in Debug mode, BookingDemoApplication > Console > Frames > Variables
+        // can see in Debug mode, Structure tab, BookingDemoApplication > Console > Frames > Variables
         // because of the default constructor, Spring knows how to bind the values from the http request,
         // to our object
     return bookings;
